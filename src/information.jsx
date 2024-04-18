@@ -10,6 +10,16 @@ import Icon4 from "./assets/money.svg"
 import Suggest1 from "./assets/sec8Left.png"
 import Suggest2 from "./assets/sec9Right.png"
 
+import Product11 from "./assets/product11.png"
+import Product22 from "./assets/product22.png"
+import Product33 from "./assets/product33.png"
+import Product4 from "./assets/product4.png"
+import Product5 from "./assets/product5.png"
+import Product6 from "./assets/product6.png"
+import Product7 from "./assets/product7.png"
+import Product8 from "./assets/product8.png"
+import Product9 from "./assets/product9.png"
+
 
 export const navigationPaths = [
     {
@@ -103,56 +113,128 @@ export const suggestions = [
 export const products = [
     {
         id: Math.random() * Math.random(),
-        img: '',
+        img: Product11,
         title: 'Modern sofa',
-        price: '$73,00',
+        price: '450',
     },
     {
         id: Math.random() * Math.random(),
-        img: '',
-        title: 'Modern sofa',
-        price: '$73,00',
+        img: Product22,
+        title: 'Aesthetic sofa',
+        price: '600',
     },
     {
         id: Math.random() * Math.random(),
-        img: '',
-        title: 'Modern sofa',
-        price: '$73,00',
+        img: Product33,
+        title: 'Armchair',
+        price: '500',
     },
     {
         id: Math.random() * Math.random(),
-        img: '',
-        title: 'Modern sofa',
-        price: '$73,00',
+        img: Product4,
+        title: 'Ottoman',
+        price: '250',
     },
     {
         id: Math.random() * Math.random(),
-        img: '',
-        title: 'Modern sofa',
-        price: '$73,00',
+        img: Product5,
+        title: 'Bed',
+        price: '150',
     },
     {
         id: Math.random() * Math.random(),
-        img: '',
+        img: Product6,
         title: 'Modern sofa',
-        price: '$73,00',
+        price: '700',
     },
     {
         id: Math.random() * Math.random(),
-        img: '',
-        title: 'Modern sofa',
-        price: '$73,00',
+        img: Product7,
+        title: 'Table',
+        price: '70',
     },
     {
         id: Math.random() * Math.random(),
-        img: '',
-        title: 'Modern sofa',
-        price: '$73,00',
+        img: Product8,
+        title: 'Sofa',
+        price: '240',
     },
     {
         id: Math.random() * Math.random(),
-        img: '',
+        img: Product9,
         title: 'Modern sofa',
-        price: '$73,00',
+        price: '220',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product5,
+        title: 'Modern sofa',
+        price: '100',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product6,
+        title: 'Modern sofa',
+        price: '850',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product7,
+        title: 'Modern sofa',
+        price: '1800',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product5,
+        title: 'Modern sofa',
+        price: '2000',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product6,
+        title: 'Modern sofa',
+        price: '7300',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product7,
+        title: 'Modern sofa',
+        price: '3500',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product5,
+        title: 'Modern sofa',
+        price: '730',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product6,
+        title: 'Modern sofa',
+        price: '350',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product7,
+        title: 'Modern sofa',
+        price: '280',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product5,
+        title: 'Modern sofa',
+        price: '900',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product6,
+        title: 'Modern sofa',
+        price: '600',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: Product7,
+        title: 'Modern sofa',
+        price: '3300',
     },
 ]
