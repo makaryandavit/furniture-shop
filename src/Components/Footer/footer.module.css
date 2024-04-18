@@ -1,0 +1,18 @@
+.footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: sansBold;
+    src: url(../../fonts/sansBold.ttf);
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: sansBold;
+}
