@@ -1,0 +1,34 @@
+.section1{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../../assets/aboutSec1.png);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+@font-face {
+    font-family: sansBold;
+    src: url(../../fonts/sansBold.ttf);
+}
+
+.title{
+    font-size: 70px;
+    color: #3F3F3F;
+    font-family: sansBold;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .section1{
+        background-position: 10%;
+    }
+
+    .title{
+        font-size: 45px;
+    }
+}

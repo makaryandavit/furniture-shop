@@ -9,3 +9,5 @@ export { Section7 } from "./Section7";
 export { Section8 } from "./Section8";
 export { Section9 } from "./Section9";
 export { Footer } from "./Footer";
+export { AboutSection1 } from "./AboutSection1";
+export { AboutSection2 } from "./AboutSection2";

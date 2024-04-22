@@ -33,7 +33,7 @@ console.warn(Number('7300'));
                     </div>
                     <div className={style.boxBottom}>
                         <p className={style.boxTitle}>{item.title}</p>
-                        <p className={style.price}>{item.price}</p>
+                        <p className={style.price}>{item.price}</p>  
                     </div>
                 </div>
             ))

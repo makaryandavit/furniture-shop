@@ -35,7 +35,7 @@ export const navigationPaths = [
     {
         id: Math.random() * Math.random(),
         text: 'About us',
-        path: 'about',
+        path: '/about',
     },
     {
         id: Math.random() * Math.random(),
