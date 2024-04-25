@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { navigationPaths } from '../../information';
 import style from "./navigation.module.css";
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const Navigation = ({hasColor}) => {
@@ -10,7 +10,9 @@ const Navigation = ({hasColor}) => {
   return (
     <div className={hasColor ? `${style.navigation} ${style.hasColor}` : style.navigation}>
             <div className={style.navLeft}>
-                <p className={hasColor ? `${style.logo} ${style.hasColor}` : style.logo}>soudemy</p>
+                <p className={hasColor ? `${style.logo} ${style.hasColor}` : style.logo}>
+                    <Link className={style.logoText}>soudemy</Link>
+                </p>
             </div>
             <div className={style.navRight}>
                 <ul className={style.lists}>

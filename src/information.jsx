@@ -20,6 +20,14 @@ import Product7 from "./assets/product7.png"
 import Product8 from "./assets/product8.png"
 import Product9 from "./assets/product9.png"
 
+import Blog1 from "./assets/blog1.png"
+import Blog2 from "./assets/blog2.png"
+import Blog3 from "./assets/blog3.png"
+
+import News1 from "./assets/news1.png"
+import News2 from "./assets/news2.png"
+import News3 from "./assets/news3.png"
+
 
 export const navigationPaths = [
     {
@@ -40,7 +48,7 @@ export const navigationPaths = [
     {
         id: Math.random() * Math.random(),
         text: 'Blog',
-        path: 'blog',    
+        path: '/blog',    
     }
 ]
 
@@ -237,4 +245,48 @@ export const products = [
         title: 'Modern sofa',
         price: '3300',
     },
+]
+
+export const blogBoxes = [
+{
+    id: Math.random() * Math.random(),
+    img: Blog1,
+    date: 'Sep 26, 2022',
+    title: 'Paint your office in natural colors only',
+},
+{
+    id: Math.random() * Math.random(),
+    img: Blog2,
+    date: 'Sep 26, 2022',
+    title: 'Paint your office in natural colors only',
+},
+{
+    id: Math.random() * Math.random(),
+    img: Blog3,
+    date: 'Sep 26, 2022',
+    title: 'Paint your office in natural colors only',    
+}
+]
+
+
+export const newses = [
+    {
+        id: Math.random() * Math.random(),
+        img: News1,
+        title: 'New modern sofa is here',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: News2,
+        title: 'New modern sofa is here',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.',
+    },
+    {
+        id: Math.random() * Math.random(),
+        img: News3,
+        title: 'New modern sofa is here',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.',
+    },
+    
 ]

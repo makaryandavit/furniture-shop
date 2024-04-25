@@ -1,0 +1,69 @@
+.section{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box{
+    width: 380px;
+    height: 480px;
+    max-width: 95%;
+}
+
+.top{
+    width: 100%;
+    height: 70%;
+}
+
+.bottom{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@font-face {
+    font-family: sansBold;
+    src: url(../../fonts/sansBold.ttf);
+}
+
+@font-face {
+    font-family: sansRegular;
+    src: url(../../fonts/sansRegular.ttf);
+}
+
+.date{
+    font-size: 16px;
+    font-family: sansRegular;
+    color: #9E9E9E;
+}
+
+.title{
+    font-size: 17px;
+    font-family: sansRegular;
+    color: black;
+    width: 60%;
+    text-align: center;
+}
+
+.btn{
+    background: none;
+    text-decoration: underline;
+    font-size: 17px;
+    font-family: sansRegular;
+    cursor: pointer;
+}

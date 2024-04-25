@@ -11,3 +11,5 @@ export { Section9 } from "./Section9";
 export { Footer } from "./Footer";
 export { AboutSection1 } from "./AboutSection1";
 export { AboutSection2 } from "./AboutSection2";
+export { AboutSection3 } from "./AboutSection3";
+export { BlogSection1 } from "./BlogSection"

@@ -15,6 +15,14 @@
     justify-content: center;
 }
 
+.logoText{
+    color: white;
+}
+
+.hasColor > .logoText{
+    color: black;
+}
+
 @font-face {
     font-family: sansBold;
     src: url(../../fonts/sansBold.ttf);
